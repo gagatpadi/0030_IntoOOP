@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa{
+class Mahasiswa {
 public: // akses modifier
 	string nama;
 	int umur;
@@ -43,6 +43,16 @@ public:
 int main() {
 	Mahasiswa mhs;
 	Matakuliah mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
 
 }
 
